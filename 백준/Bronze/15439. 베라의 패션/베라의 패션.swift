@@ -1,4 +1,3 @@
-import Foundation
-let input = Double(readLine()!)!
-let result = Int(pow(input, 2) - input)
+let input = Int(readLine()!)!
+let result = input * (input - 1)
 print(result)
